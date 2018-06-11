@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from django.urls import path
-from .views import school_name
+from .views import school_list
 
 urlpatterns = [
-    url(r'^school/', school_name)
+    url(r'^school/', school_list)
 ]
