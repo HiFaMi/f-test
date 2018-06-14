@@ -1,0 +1,6 @@
+{% extends 'blog/base.html' %}
+{% block context %}
+    {% for student in students %}
+        {{ student.name }}
+    {% endfor %}
+{% endblock %}
